@@ -6,6 +6,11 @@ A tool for making configuration from file and environments conveniently.
 
 full example please go to `example/demo01`
 
+### Installation
+```bash
+$ go get github.com/yukiouma/cfg-maker
+```
+
 ### Assumption
 We want to store the configurations using a struct like this:
 ```go
