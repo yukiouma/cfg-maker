@@ -1,4 +1,4 @@
-package CfgMaker
+package cfgmaker
 
 import (
 	"encoding/json"

@@ -1,9 +1,9 @@
-package cfgreader
+package cfgmaker
 
 import (
-	cfgreader "github.com/yukiouma/cfg-maker/internal/cfgmaker"
+	"github.com/yukiouma/cfg-maker/internal/cfgmaker"
 )
 
-func New(data any) cfgreader.CfgMaker {
-	return cfgreader.NewMaker(data)
+func New(data any) cfgmaker.CfgMaker {
+	return cfgmaker.NewMaker(data)
 }
